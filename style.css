@@ -1,0 +1,72 @@
+body {
+  font-family: avenir;
+  background-image: url("iri.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+
+}
+
+h1 {
+  padding-top: 15px;
+  font-weight: 400;
+  color: #f8dde9;
+  font-size: 10vh;
+  position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     
+
+}
+span {
+  background: rgba(108, 101, 255, 0.6);
+  padding: 5px;
+}
+
+div.menu {
+  display: block;
+  color: #f8dde9;
+  font-weight: lighter;
+  font-size: 5vh;
+
+}
+
+ul {
+padding-top: 15vh;
+  list-style-type: none;
+  position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+
+}
+
+li {
+  display: inline-block;
+  padding-right: 4vw;
+  padding-left: 1vw;
+
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div.about {
+    margin: auto;
+  color: white;
+  margin-top: 30vh;
+  max-width: 70vw;
+
+  background: rgba(108, 101, 255, 0.6)
+}
